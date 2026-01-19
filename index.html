@@ -1,47 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Metadata Labs</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <title>The Biggest Lil Movie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Tailwind CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 
-    <!-- Optional: basic theme config -->
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              bg: "#0b0b0b",
-              fg: "#e5e7eb",
-            },
-          },
-        },
-      }
-    </script>
-  </head>
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-  <body class="bg-bg text-fg min-h-screen flex items-center justify-center">
-    <main class="text-center space-y-6">
-      <h1 class="text-4xl font-bold tracking-tight">
-        Metadata Labs
-      </h1>
+  <style>
+    body {
+      font-family: 'Nanum Pen Script', cursive;
+    }
+  </style>
+</head>
 
-      <p class="text-gray-400">
-        Experimental systems, games, and protocols.
-      </p>
-
+<body class="bg-white text-black flex flex-col items-center">
+  
+  <!-- FLOATING GLASSES -->
+  <div class="-mb-6">
+    <img
+    src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png"
+    class="w-28"
+    alt="glasses"
+    />
+  </div>
+  
+  <!-- TITLE CARD -->
+  <div class="bg-yellow-300 border-2 border-black rounded-md shadow-[6px_6px_0px_black] px-8 py-4 mb-12">
+    <h1 class="text-5xl font-bold text-center underline">
+      The Biggest Lil Movie
+    </h1>
+    <p class="text-xl text-center mt-1">
+      by salmanneedsajob.eth
+    </p>
+  </div>
+  
+  <!-- ================= PART 1 ================= -->
+  <section class="w-full max-w-2xl mb-20 px-4">
+    
+    <!-- VIDEO CONTAINER WITH GLASSES BORDER -->
+    <div class="bg-[#e7dedb] border-2 border-black rounded-xl shadow-[8px_8px_0px_black] w-full">
+      
+      <!-- HEADER INSIDE CONTAINER -->
+      <div class="flex items-center justify-center gap-4 my-2 mr-4">
+        <img src="https://media.giphy.com/media/NCg19RZ4BmMwcctCbD/giphy.gif" class="w-14 h-14" />
+        <div class="italic text-2xl">
+          <p>part one:</p>
+          <p class="text-3xl">the story begins…</p>
+        </div>
+      </div>
+      
+      <div class="flex items-stretch gap-4">
+        
+        <!-- LEFT GLASSES -->
+        <div class="hidden md:flex flex-col justify-between py-2">
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+        </div>
+        
+        <!-- VIDEO AND TITLE -->
+        <div class="flex-1">
+          <div class="relative aspect-video">
+            <iframe
+            class="absolute inset-0 w-full h-full rounded-md"
+            src="https://www.youtube.com/embed/QeTpkH2R7mU"
+            frameborder="0"
+            allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        
+        <!-- RIGHT GLASSES -->
+        <div class="hidden md:flex flex-col justify-between py-2">
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- ================= PART 2 ================= -->
+  <section class="w-full max-w-2xl mb-20 px-4">
+    
+    <!-- VIDEO CONTAINER WITH GLASSES BORDER -->
+    <div class="bg-[#c9bcbc] border-2 border-black rounded-xl shadow-[8px_8px_0px_black] w-full">
+      
+      <!-- HEADER INSIDE CONTAINER -->
+      <div class="flex items-center justify-center gap-4 my-2 mr-4">
+        <img src="https://media.giphy.com/media/NCg19RZ4BmMwcctCbD/giphy.gif" class="w-14 h-14" />
+        <div class="italic text-2xl">
+          <p>part two:</p>
+          <p class="text-3xl">the story continues…</p>
+        </div>
+      </div>
+      
+      <div class="flex items-stretch gap-4">
+        
+        <!-- LEFT GLASSES -->
+        <div class="hidden md:flex flex-col justify-between py-2">
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+        </div>
+        
+        <!-- VIDEO AND TITLE -->
+        <div class="flex-1">
+          <div class="relative aspect-video">
+            <iframe
+            class="absolute inset-0 w-full h-full rounded-md"
+            src="https://www.youtube.com/embed/P5owZmpQwjw"
+            frameborder="0"
+            allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        
+        <!-- RIGHT GLASSES -->
+        <div class="hidden md:flex flex-col justify-between py-2">
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- ================= PART 3 ================= -->
+  <section class="w-full max-w-2xl mb-24 px-4">
+    
+    <!-- VIDEO CONTAINER WITH GLASSES BORDER -->
+    <div class="bg-[#c3aaa6] border-2 border-black rounded-xl shadow-[8px_8px_0px_black] w-full">
+      
+      <!-- HEADER INSIDE CONTAINER -->
+      <div class="flex items-center justify-center gap-4 my-2 mr-4">
+        <img src="https://media.giphy.com/media/r0rkNNL1nQWejRHqmt/giphy.gif" class="w-14 h-14" />
+        <div class="italic text-2xl">
+          <p>part three:</p>
+          <p class="text-3xl">all good things come to an end</p>
+        </div>
+      </div>
+      
+      <div class="flex items-stretch gap-4">
+        
+        <!-- LEFT GLASSES -->
+        <div class="hidden md:flex flex-col justify-between py-2">
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+        </div>
+        
+        <!-- VIDEO AND TITLE -->
+        <div class="flex-1">
+          <div class="relative aspect-video">
+            <iframe
+            class="absolute inset-0 w-full h-full rounded-md"
+            src="https://www.youtube.com/embed/VwJFVr3eUsc"
+            frameborder="0"
+            allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        
+        <!-- RIGHT GLASSES -->
+        <div class="hidden md:flex flex-col justify-between py-2">
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+          <img src="https://pbs.twimg.com/media/FLCVzSPXEAQqjJf.png" class="w-10" />
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- ================= POAP CARD ================= -->
+  <section class="mb-10">
+    <div class="relative bg-[#fff1ec] border-2 border-black rounded-lg shadow-[6px_6px_0px_black] px-10 py-6 text-center">
+      
+      <!-- SCISSORS -->
+      <img
+      src="https://cdn-icons-png.flaticon.com/512/8468/8468888.png"
+      class="absolute top-1.5 right-12 w-6 -rotate-[120deg]"
+      />
+      
+      <!-- DOTTED BOX -->
       <a
-        href="https://pockit.world"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-block px-6 py-3 rounded-lg border border-gray-600
-               hover:border-white hover:text-white transition"
+      href="https://collectors.poap.xyz/delivery/nounshackweek"
+      target="_blank"
+      class="text-purple-600 font-bold"
       >
-        Visit pockit.world →
-      </a>
-    </main>
-  </body>
+      <div class="z-10 border-2 border-dashed border-purple-400 bg-purple-200 rounded-md px-6 py-3 inline-block mb-3 text-xl">
+        Mint Hack Week POAP 🖼️
+      </div>
+    </a>
+
+    <!-- CLAIMED -->
+    <div class="my-2">
+      <span class="bg-purple-500 text-white text-base px-3 py-1 rounded-md">
+        50/200 claimed
+      </span>
+    </div>
+
+    <!-- LINKS -->
+    <div class="flex justify-center gap-8 text-lg text-blue-600 font-semibold">
+      <a
+      href="https://hackmd.io/@salmanneedsajob/lilmoviecredits"
+      target="_blank"
+      class="underline"
+      >
+      credits
+    </a>
+    <a
+    href="https://juicebox.money/@salmanneedsajob"
+    target="_blank"
+    class="underline"
+    >
+    support on juicebox
+  </a>
+</div>
+</div>
+</section>
+
+<!-- FOOTNOTE -->
+<p class="text-base text-sm text-gray-400 mb-14 text-center max-w-md w-[260px] leading-[16px] rounded-md p-1 bg-gray-200 border border-gray-400 border-dashed" style="font-family: 'Times New Roman', Times, serif;">
+  this page has been permanently stored on-chain and is signed by its creator.
+</p>
+
+<!-- PIXEL FROG -->
+<div class="mb-12 text-3xl">
+  🐸
+</div>
+
+</body>
 </html>
